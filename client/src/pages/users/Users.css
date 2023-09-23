@@ -1,0 +1,27 @@
+.user-list-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px, 1fr) );
+    gap: 30px;
+    padding: 10px 20px;
+}
+.user-profile-link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(255, 228, 204);
+    border-radius: 8px;
+    color: black;
+    padding: 0px 10px;
+
+
+}
+.user-profile-link h3{
+    padding: 12px;
+    background-color: coral;
+    border-radius: 50%;
+    color: white;
+
+}
+.user-profile-link h5{
+    padding: 0px 10px;
+}
